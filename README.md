@@ -1,7 +1,7 @@
 # PARTICLE SYSTEM
 
 
-A simple **Particle System** based on Euler's Integration for updating updating particle dynamics.
+A simple **Particle System** based on Euler's Integration for updating particle dynamics.
 
 
 Acceleration Enabled             |  Acceleration Disabled
