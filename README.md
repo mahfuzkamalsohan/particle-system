@@ -11,8 +11,6 @@ Gravity Enabled             |  Gravity Disabled
 
 
 
-
-
 ## Functionalities and Design Choices
 - **Visualization:** The simulation uses [SFML (Simple and Fast Multimedia Library)](https://www.sfml-dev.org) to create and display circular particles. 
 - **Particle Movement:** Particle positions are updated each frame based on velocity and acceleration, resulting in continuous movement and realistic physics.
@@ -26,10 +24,10 @@ This project uses SFML for graphical rendering and event handling. You need to i
 More on that [here](https://www.sfml-dev.org/tutorials/3.0/).
 
 
-1. Clone this Repository
+1. Clone this Repository.
 
-2. Copy and paste the .dll files from SFML to the project directory 
+2. Copy and paste the .dll files from SFML to the project directory. 
 
-3. Build the Project and Run the Simulation:
+3. Build the Project and Run the Simulation.
 
 
