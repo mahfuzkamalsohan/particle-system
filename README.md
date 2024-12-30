@@ -4,7 +4,7 @@
 A simple **Particle System** based on Euler's Integration for updating updating particle dynamics.
 
 
-Gravity Enabled             |  Gravity Disabled
+Acceleration Enabled             |  Acceleration Disabled
 :-------------------------:|:-------------------------:
 ![](/demo/particle_system_demo1.gif)  |  ![](/demo/particle_system_demo2.gif)
 
