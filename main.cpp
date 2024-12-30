@@ -95,8 +95,8 @@ struct Particle
 
 int main ()
 {
-    const int windowWidth = 400;
-    const int windowHeight = 400;
+    const float windowWidth = 400;
+    const float windowHeight = 400;
     sf::RenderWindow window(sf::VideoMode({windowWidth, windowHeight}), "Particle System");
     window.setFramerateLimit(60);
 
@@ -113,7 +113,7 @@ int main ()
 
     for (int i = 0; i < N_Particles; i++)
     {
-        particles.emplace_back(randomRadius(gen), randomVelocity(gen), sf::Vector2f{200,200});
+        particles.emplace_back(randomRadius(gen), randomVelocity(gen), sf::Vector2f{windowWidth/2,windowHeight/2});
     }
 
 
